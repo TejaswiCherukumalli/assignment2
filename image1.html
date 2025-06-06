@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table Task</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+    }
+
+    h2 {
+      background-color: #005c2d;
+      color: white;
+      padding: 10px 15px;
+      display: inline-block;
+      border-radius: 0 10px 0 10px;
+    }
+
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+    }
+
+    /* First table style */
+    .table1 th, .table1 td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .table1 th {
+      background-color: #4bb4a5;
+      color: white;
+    }
+
+    .table1 tr:nth-child(even) {
+      background-color: #aee3db;
+    }
+
+    .table1 tr:nth-child(odd) {
+      background-color: #c5ebe4;
+    }
+
+    /* Second table style */
+    .table2 {
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+
+    .table2 th, .table2 td {
+      border: 2px solid #168a59;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: left;
+      background-color: #c0e8d5;
+    }
+
+    .table2 th {
+      background-color: #5ab98f;
+      color: white;
+    }
+
+    .bottom-img {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Table Task</h2>
+
+  <!-- First Table -->
+  <table class="table1">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+  <!-- Second Table -->
+  <table class="table2">
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr>
+  </table>
+
+</body>
+</html>
